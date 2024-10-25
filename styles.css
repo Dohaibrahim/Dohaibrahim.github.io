@@ -49,9 +49,9 @@ h1, h2 {
 
 /* Individual Image Styles */
 .project-images img {
-    width: 20%; /* Each image takes 30% of the screen width */
+    width: 10%; /* Each image takes 30% of the screen width */
     height: auto;
-    margin:  50px; /* Adjust margin as needed */
+    margin:  10px; /* Adjust margin as needed */
 }
 
 /* Media Queries for Responsiveness */
