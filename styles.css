@@ -43,15 +43,16 @@ h1, h2 {
 /* Grid for Images */
 .project-images {
     display: flex;
-    overflow-x: scroll; /* Enable horizontal scrolling */
+    overflow-x: scroll;
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+    gap: 5px; /* Reduce the gap between images */
 }
 
 /* Individual Image Styles */
 .project-images img {
-    width: 10%; /* Each image takes 30% of the screen width */
+    width: 15%;
     height: auto;
-    margin:  10px; /* Adjust margin as needed */
+    margin: 0 2px; /* Reduce the margin around images */
 }
 
 /* Media Queries for Responsiveness */
