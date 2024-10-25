@@ -13,7 +13,7 @@ h1, h2 {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 900px; 
     margin: 0 auto;
     padding: 20px;
 }
@@ -45,15 +45,15 @@ h1, h2 {
 .project-images {
     display: flex;
     overflow-x: scroll;
-    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
-    gap: 5px; /* Reduce the gap between images */
+    -webkit-overflow-scrolling: touch;
+    gap: 5px;
 }
 
 /* Individual Image Styles */
 .project-images img {
-    width: 10%; /* Adjust width as needed */
+    width: 13%;
     height: auto;
-    margin: 0 1px; /* Reduce the margin around images */
+    margin: 0 1px;
 }
 
 /* Media Queries for Responsiveness */
